@@ -91,7 +91,7 @@
         ///模拟单次返回的数据
         NSMutableArray *singleDataArr = [NSMutableArray array];
         for (NSInteger i = self.page * 20 - 20; i < self.page * 20; i ++) {
-            [singleDataArr addObject:[NSString stringWithFormat:@"%ld row",i]];
+            [singleDataArr addObject:[NSString stringWithFormat:@"%ld row",(long)i]];
         }
         
         [self.dataArr addObjectsFromArray:singleDataArr];
