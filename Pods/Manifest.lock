@@ -1,0 +1,30 @@
+PODS:
+  - MJRefresh (3.1.15.3)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDAutoLayout (2.2.0)
+
+DEPENDENCIES:
+  - MJRefresh (~> 3.1.15.1)
+  - ReactiveCocoa (~> 2.5.0)
+  - SDAutoLayout (~> 2.2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MJRefresh
+    - ReactiveCocoa
+    - SDAutoLayout
+
+SPEC CHECKSUMS:
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDAutoLayout: c5509e77ae75735d9a39f7bc83dba6d3f75d49d8
+
+PODFILE CHECKSUM: 2da1e1efa72ec79f3c1c9d672afb55b29c66e035
+
+COCOAPODS: 1.5.0
