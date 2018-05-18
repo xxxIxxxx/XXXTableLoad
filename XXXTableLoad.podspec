@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = 'XXXTableLoad'
-  s.version      = '1.0'
+  s.version      = '1.0.1'
   s.summary      = '快速为tableView配置下拉上拉动画及空数据展示'
   s.homepage     = 'https://github.com/xxxIxxxx/XXXTableLoad'
   s.license      = 'MIT'
   s.authors      = {'i2yf' => 'i2yf@vip.qq.com'}
   s.platform     = :ios, '8.0'
-  s.source       = {:git => 'https://github.com/xxxIxxxx/XXXTableLoad.git', :tag => 1.0}
+  s.source       = {:git => 'https://github.com/xxxIxxxx/XXXTableLoad.git', :tag => 1.0.1}
   s.source_files = 'XXXTableLoad/**/*.{h,m}'
   s.requires_arc = true
   s.frameworks = "UIKit", "Foundation"
@@ -15,3 +15,6 @@ Pod::Spec.new do |s|
   s.dependency "ReactiveCocoa", "~> 2.5.0"
 
 end
+
+
+#pod trunk push XXXTableLoad.podspec —allow-warnings

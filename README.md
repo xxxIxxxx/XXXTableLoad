@@ -3,12 +3,13 @@
 ![效果图](https://ws1.sinaimg.cn/large/006tNc79gy1freay40vu8g30ap0nn1kx.gif)
 
 ### 使用
-1. pod
+
+1. `pod 'XXXTableLoad', '~> 1.0.1'`
 2. ` #import "XXXTableHeader.h" `
 3. 设置配置项 通过 `XXXTableLoadConfig` 设置相关配置
 
 
-### ==主要根据配置的 [XXXTableLoadConfig manager].startPage 和 [XXXTableLoadConfig manager].singleMaxDataCount 来判断是否为空数据界面==
+### **主要根据配置的 [XXXTableLoadConfig manager].startPage 和 [XXXTableLoadConfig manager].singleMaxDataCount 来判断是否为空数据界面**
 
 
 #### 配置下拉上拉动画及事件
@@ -40,7 +41,7 @@ __weak typeof(self) weakSelf = self;
 
 ```
 
-### ==重试按钮根据是否补全tryClick来进行展示，一般在请求失败时补全==
+### **重试按钮根据是否补全tryClick来进行展示，一般在请求失败时补全**
 
 
 

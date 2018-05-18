@@ -17,8 +17,6 @@
     xxc.tryTips = @"网络开小差了~";
     xxc.emptyTipsColor = [UIColor blackColor];
     xxc.emptyTipsFont = [UIFont systemFontOfSize:12];
-    xxc.emptyImage = [UIImage imageNamed:@"tipImg"];
-    xxc.tryImage = [UIImage imageNamed:@"tryImg"];
     xxc.tryBtnTitle = @"重试";
     xxc.tryBtnFont = [UIFont systemFontOfSize:12];
     xxc.tryBtnBackgroundColor = [UIColor colorWithRed:217/255.0 green:217/255.0 blue:217/255.0 alpha:1];
@@ -26,11 +24,15 @@
     xxc.startPage = 1;
     xxc.singleMaxDataCount = 20;
     xxc.emptyViewTag = 740978851;
+
     
-    xxc.mjRefreshStateIdleImgArr = @[[UIImage imageNamed:@"tipImg"],[UIImage imageNamed:@"tryImg"]];
-    xxc.mjRefreshStatePullingImgArr = @[[UIImage imageNamed:@"tipImg"],[UIImage imageNamed:@"tryImg"]];
-    xxc.mjRefreshStateRefreshingImgArr = @[[UIImage imageNamed:@"tipImg"],[UIImage imageNamed:@"tryImg"]];
-    xxc.mjRefreshStateWillRefreshImgArr = @[[UIImage imageNamed:@"tipImg"],[UIImage imageNamed:@"tryImg"]];
+//    xxc.emptyImage = [UIImage imageNamed:@"tipImg"];
+//    xxc.tryImage = [UIImage imageNamed:@"tryImg"];
+
+//    xxc.mjRefreshStateIdleImgArr = @[[UIImage imageNamed:@"tipImg"],[UIImage imageNamed:@"tryImg"]];
+//    xxc.mjRefreshStatePullingImgArr = @[[UIImage imageNamed:@"tipImg"],[UIImage imageNamed:@"tryImg"]];
+//    xxc.mjRefreshStateRefreshingImgArr = @[[UIImage imageNamed:@"tipImg"],[UIImage imageNamed:@"tryImg"]];
+//    xxc.mjRefreshStateWillRefreshImgArr = @[[UIImage imageNamed:@"tipImg"],[UIImage imageNamed:@"tryImg"]];
     
 }
 
