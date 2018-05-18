@@ -2,12 +2,15 @@
 
 ![效果图](https://ws1.sinaimg.cn/large/006tNc79gy1freay40vu8g30ap0nn1kx.gif)
 
+#### [直达 GitHub](https://github.com/xxxIxxxx/XXXTableLoad)
+
 ### 使用
 
 1. `pod 'XXXTableLoad', '~> 1.0.1'`
 2. ` #import "XXXTableHeader.h" `
 3. 设置配置项 通过 `XXXTableLoadConfig` 设置相关配置
 
+**此工程依赖 MJRefresh、SDAutoLayout、ReactiveCocoa** 在使用pod导入时会自动导入
 
 ### **主要根据配置的 [XXXTableLoadConfig manager].startPage 和 [XXXTableLoadConfig manager].singleMaxDataCount 来判断是否为空数据界面**
 
