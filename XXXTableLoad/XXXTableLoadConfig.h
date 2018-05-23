@@ -50,10 +50,10 @@
 ///重试按钮 字体颜色
 @property (nonatomic ,strong) UIColor *tryBtnTitleColor;
 
-///数据开始页码1
+///数据开始页码 默认为1
 @property (nonatomic ,unsafe_unretained) NSInteger startPage;
 
-///单次最大数据量
+///单次最大数据量 默认20条
 @property (nonatomic ,unsafe_unretained) NSInteger singleMaxDataCount;
 
 ///空数据界面 展示图 tag 默认 740978851
