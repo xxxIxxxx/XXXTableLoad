@@ -4,8 +4,8 @@ target "YTableEx" do
 use_frameworks!
 
 
-pod 'MJRefresh', '~> 3.1.15.1'
-pod 'SDAutoLayout', '~> 2.2.0'
-pod 'ReactiveCocoa', '~> 2.5.0’
+pod 'MJRefresh', '~> 3.1.15.1',:inhibit_warnings => true
+pod 'SDAutoLayout', '~> 2.2.0',:inhibit_warnings => true
+pod 'ReactiveCocoa', '~> 2.5.0’,:inhibit_warnings => true
 
 end
