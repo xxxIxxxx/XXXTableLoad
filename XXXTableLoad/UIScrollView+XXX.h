@@ -19,7 +19,18 @@
  @param pullDownClick 下拉事件
  @param pullUpClick 上拉事件
  */
-- (void)xxx_tableLoadDataClick:(void(^)(void))pullDownClick andPullUP:(void(^)(void))pullUpClick;
+- (void)xxx_tableLoadDataClick:(void(^)(void))pullDownClick pullUP:(void(^)(void))pullUpClick;
+
+
+
+
+/**
+ 配置下拉动画 及 下拉 上拉 事件
+
+ @param refreshClick 刷新事件。isPullDown = Yes 为下拉
+ */
+- (void)xxx_tableLoadDataClick:(void(^)(BOOL isPullDown))refreshClick;
+
 
 
 /**

@@ -26,16 +26,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     
-    
-    
-   /* @"0.表正常数据请求",
-    @"1.表无数据",
-    @"2.表的数据量有限，无法继续上拉加载更多",
-    @"3.表请求失败，重试",
-    @"4.控制器视图 无数据",
-    @"5.控制器视图 重试",*/
-    
-    
     /****      默认设置   可通过  XXXConfigManager   更改    ***/
     
 //    XXXConfigManager.emptyTips = @"默认文字";
@@ -44,35 +34,36 @@
     
     //******************************
     
-    /// 是否 为无数据  和   继续显示加载更多 通过这连个属性控制
+    /// 是否 为无数据  和   继续显示加载更多 通过这两个属性控制
     
     [XXXTableLoadConfig manager].startPage = 1;               ///数据的起始页码
     [XXXTableLoadConfig manager].singleMaxDataCount = 20;     ///后台单次返回的最大数据量
     
+//    当存在 tableHeaderView 时，不展示空数据界面，不展示加载失败界面
     
     //******************************
     
     __weak typeof(self) weakSelf = self;
     
     if (self.type == 4) {
-        [self.view xxx_viewEmptyImage:nil andTip:self.title andTryClick:nil];
+//        @"4.控制器视图 无数据",
+        [self.view xxx_viewEmptyImage:nil tip:self.title tryClick:nil];
     }else if (self.type == 5) {
-        [self.view xxx_viewEmptyImage:nil andTip:self.title andTryClick:^{
+//        @"5.控制器视图 重试",
+        [self.view xxx_viewEmptyImage:nil tip:self.title tryClick:^{
             [weakSelf.view xxx_viewRemoveNoDataView];
         }];
     }else {
         
         [self initTableView];
         self.dataArr = [NSMutableArray array];
-        
-        ///为tabelView 配置 下拉 上拉
-        [weakSelf.tableView xxx_tableLoadDataClick:^{
-            weakSelf.page = 1;
-            [weakSelf addData];
-        } andPullUP:^{
+        /// 配置加载动画
+        [weakSelf.tableView xxx_tableLoadDataClick:^(BOOL isPullDown) {
+            if (isPullDown) weakSelf.page = XXXConfigManager.startPage - 1;
             weakSelf.page ++;
             [weakSelf addData];
         }];
+        
         /// 使tableView 直接进入刷新状态
         [self.tableView xxx_tableBeginRefresh];
     }
@@ -96,26 +87,28 @@
         
         [self.dataArr addObjectsFromArray:singleDataArr];
         
-        if (self.type == 1 ) {
+        if (self.type == 0) {
+            //             @"0.表正常数据请求"
+            [self.tableView xxx_tableGetSingleCount:singleDataArr.count page:self.page image:nil tips:nil tryClick:nil];
+        }else if (self.type == 1 ) {
+//            @"1.表无数据",
             [singleDataArr removeAllObjects];
+            [self.dataArr removeAllObjects];
+            [self.tableView xxx_tableGetSingleCount:singleDataArr.count page:self.page image:nil tips:nil tryClick:nil];
         }else if (self.type == 2) {
+//            @"2.表的数据量有限，无法继续上拉加载更多",
             [singleDataArr removeLastObject];
-        }
-        
-        [self.tableView xxx_tableGetSingleCount:singleDataArr.count page:self.page image:nil tips:nil tryClick:nil];
-        
-        if (self.type == 3) {
+            [self.tableView xxx_tableGetSingleCount:singleDataArr.count page:self.page image:nil tips:nil tryClick:nil];
+        }else if (self.type == 3) {
+//            @"3.表请求失败，重试",
             /// 当网络出现问题 请求未能到达服务端时 补全block即可 展示重试按钮
             __weak typeof(self) weakSelf = self;
-            [self.tableView xxx_viewEmptyImage:nil andTip:nil andTryClick:^{
+            [self.tableView xxx_loadErrorPage:self.page image:nil tip:nil tryClick:^{
                 /// 模拟恢复正常
                 weakSelf.type = 0;
                 [weakSelf addData];
             }];
-            
         }
-        
-        
     });
 }
 

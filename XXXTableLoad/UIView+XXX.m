@@ -10,10 +10,22 @@
 #import "XXXTableLoadConfig.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <SDAutoLayout/SDAutoLayout.h>
+#import "UIScrollView+XXX.h"
 
 @implementation UIView (XXX)
+
+
+- (void)xxx_loadErrorPage:(NSInteger)page image:(UIImage *)image tip:(NSString *)tip tryClick:(void (^)(void))tryAgainClick {
+    if (page == XXXConfigManager.startPage) {
+        [self xxx_viewEmptyImage:image tip:tip tryClick:tryAgainClick];
+    }
+}
+
+
+
+
 #pragma mark - noDta
-- (void)xxx_viewEmptyImage:(UIImage *)image andTip:(NSString *)tip andTryClick:(void (^)(void))tryAgainClick {
+- (void)xxx_viewEmptyImage:(UIImage *)image tip:(NSString *)tip tryClick:(void (^)(void))tryAgainClick {
     
 
     [self xxx_viewRemoveNoDataView];
@@ -74,9 +86,18 @@
         tipLabel.textColor = XXXConfigManager.emptyTipsColor;
         tipLabel.font = XXXConfigManager.emptyTipsFont;
         
+        
+        
         if ([self isKindOfClass:[UIScrollView class]]) {
             UIScrollView *scrollSelf = (UIScrollView *)self;
             scrollSelf.scrollEnabled = NO;
+            [scrollSelf xxx_tableStopAllRefreshAnimation];
+            if ([self isKindOfClass:[UITableView class]]) {
+                UITableView *tableView = (UITableView *)self;
+                if (tableView.tableHeaderView) {
+                    [tableView xxx_viewRemoveNoDataView];
+                }
+            }
         }
     }
 }

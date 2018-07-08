@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0034E9582B7C8528E17BA6D0B4B01CB7 /* RACStream+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B9756DFAEFC03E72ECDED13A85C864 /* RACStream+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		019AA6218BEB87BB76BBD31A297D7E66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		020002AD44B16CF561F4B515B83B37D7 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8DF6B454D0F69BBC9C7590B8567D4 /* MJRefreshBackFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		031BDD087809001B3E91C82816FB1DA2 /* RACEXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FF6418D2CD2C540F074DDD0B43CE2B /* RACEXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		05D4D66CDCD3EF55E378277740F79CBF /* UIControl+RACSignalSupportPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = B8AB8F1EEBCF5BB7E94A2C28A051A72C /* UIControl+RACSignalSupportPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,7 +64,6 @@
 		35D685CF7C6F73A65AD3DD99674CA78F /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = D48525ADCA359D5AC7794C8F260291B8 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		361A4612027C813601C32E0A99EA8AE8 /* RACScopedDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6211B51F44DB62C01934820AB60976CC /* RACScopedDisposable.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3664708912437C19A6FB4B1855DD6C10 /* UIStepper+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 445BB11E178954EC5D5B480BD69A9E4E /* UIStepper+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36C60F8F982AB111E9286432EBC2EE8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		376E630274C3D0ACA4B47CC25FCFB05C /* RACSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2A4A89F6D354026118803D8154E2A2 /* RACSignal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		38CE88F20A27748EB841B690B1FE6343 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE54472E95A22F6821809F18CFED269D /* MJRefreshAutoGifFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3BC5D4239BDC8A0403FE40AFA4FF667B /* RACDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B5AE9E398D873836F731EC67E03A6 /* RACDisposable.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -134,6 +132,7 @@
 		82CA37010E9A06E2953B898AC14E6A62 /* RACErrorSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA52255197094DC075B1F3E72154900 /* RACErrorSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82E27B786C3519A018BC259E3A34E8CD /* RACScheduler+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CE0C0938A06BC62B78A137D06D2E957 /* RACScheduler+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82F485445C31A8ECC02D3BE64D6D154B /* UIButton+RACCommandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D87F2EEE78E0A0BC1DB52F2FDF57BC36 /* UIButton+RACCommandSupport.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		83B68317FC4966C6E3235AEC02C40271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		8509F136A2F356A96D6EFDFB5E66A04F /* RACBlockTrampoline.h in Headers */ = {isa = PBXBuildFile; fileRef = 9877B497E34D3850E1D26A4FFBCC33D1 /* RACBlockTrampoline.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		852A475E01E1302E193F63EC1E4396DB /* MKAnnotationView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD4F3AA759559F7FF6CC497A155C41D /* MKAnnotationView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85A17793EA5D2ADEF49EFD9C9FF27CD2 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7EF96C4ED0D99F1DFDAB67259E9D2 /* UIScrollView+MJRefresh.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -146,6 +145,7 @@
 		8E35DF0B66136FB0902B8D5DA749AA50 /* RACmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 319F1AB28A17542BBBFF7E8A7E80A57D /* RACmetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F50A6739E47CD42A432230DFA5FF987 /* Pods-YTableEx-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD6B0386AE7C56C62F84683E1F9E41D /* Pods-YTableEx-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92052E4BAA96409F6A341A912716CF0D /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C5D48E208474A16A055E573720AF74 /* UIView+MJExtension.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		958E4BD7461DB07EE14E7A0B59E7D7BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		96FD078498A22CC5EE074675B62ACB29 /* RACMulticastConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F3677867CD2335AE7CE23A90B4EA05 /* RACMulticastConnection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		978259C40C9B42661D2C0E376D331680 /* NSObject+RACDeallocating.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5A35D91F650666F2AD8D4C2AD6F653 /* NSObject+RACDeallocating.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9807E7D3760CE34DC72585230575A786 /* RACKVOChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD73007782590510DA11A336056696E3 /* RACKVOChannel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -161,7 +161,6 @@
 		A163EE46421289910A0498CA37908657 /* RACKVOChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = AECACD5DEA32E52A9698BE731EBB260E /* RACKVOChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A181A0C6E14B2EA92157E3EC9E272E82 /* RACReturnSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C561949B4C7C3569924D6806E71396E /* RACReturnSignal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A1887E4885213A83A9FB39894F3A3593 /* NSString+RACKeyPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A3DC0B1843FD69C1FEA097CA2B01D5 /* NSString+RACKeyPathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2D9F9EFFDFE9C19DA842E826B06BCEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A36AA9EABFEBE7B3F919467086C228B9 /* NSData+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA09F947D10ABD1DD90A4F2B2CBA278 /* NSData+RACSupport.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A419AFE362B40BF0D9C6D2DAA7880FC4 /* RACGroupedSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5036C9E4B97C638E9784418AEB8C12 /* RACGroupedSignal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A5382D3EA98D2EB1AD9EDA5F2138F00D /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E64F4F0FAC35C9CD97044F63C83045A /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -205,7 +204,6 @@
 		CA4BF710780DB35698B1DE46DD332162 /* UIAlertView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 59892EE922DAFF45949B892AE9135D18 /* UIAlertView+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CB18F5862DBFECEFEBA2E3F6BC386899 /* NSSet+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E75B14E47A433AAA81C347C810BFBFDF /* NSSet+RACSequenceAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CC28191094E35E8F6463D3FB39977B4C /* UITableViewCell+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 41230863F45154F68FEE39E593217F95 /* UITableViewCell+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC581A011CC508E68516017ED9FAB734 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CD32CA97FDBCC8B45D104D2B234C3F17 /* RACEXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E2E02A14593EE5BE5AD9B55B50C1540 /* RACEXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFF6508665F240EDE45A7BC2007A529D /* UISegmentedControl+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C1CC8D1FE42A2283EDFEC6063831A /* UISegmentedControl+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D025FE7FBA6A0674922CB6987FD8A21B /* UIControl+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A0401FA4F40E73938ABB73BBDD61B9 /* UIControl+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -213,6 +211,7 @@
 		D0E7D5B865722A25EC7D91B0FAD8A6CD /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE025FFB7B10EC945DC4FDC1431AE51 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2E8A7B89A550FA22DEE1319ADB83A4E /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F98C6683F76F7FD4C6C9E4DE7F218F /* MJRefreshConst.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D4A074EA6933F91C7F49264C79D9F5E7 /* UIGestureRecognizer+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 598025895F04A021010848D42890D796 /* UIGestureRecognizer+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D719D3782558B9CCBA1450DB12653675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		D820DE54D6E9E5C85E0F9BF8A399E5EF /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E508BF155F32A6412CB93BDA6AA2E24 /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D833FB98136E063FA2D179B6BFFA0CDD /* RACTargetQueueScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = CF186155B8A6FE013DC6D574267CF972 /* RACTargetQueueScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8A68C8B22BF8FCB11669AABBB1C839B /* NSObject+RACDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD0CC82580965D792AA386D4CEFAF7D /* NSObject+RACDescription.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -242,6 +241,7 @@
 		ED00A1A5BA522843148EA4C6C68F60F2 /* NSEnumerator+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CFEF67EEC2712736D01EAD9EFDF735 /* NSEnumerator+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDCE0F7E5CC30C757C21904AEEC6BF8C /* NSUserDefaults+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDEB9E4A365272119D84821C5ADB6C8 /* NSUserDefaults+RACSupport.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EDDA2CBCCBEB017A01927AA75D8A610E /* RACQueueScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7D6C9D8AA3B78144858BD0C8944B6B /* RACQueueScheduler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EE4D53012490D288F17E1E34ED7EB203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		EF8D064EE4499B536F4A0998C55DC90D /* NSDictionary+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 497408511C276D59898E0F54CFE939D4 /* NSDictionary+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0A74BCC510AAA64238C1133B9C026DA /* UITableViewHeaderFooterView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD5DBE6AA036C0FDD3CA8D1A73B9092 /* UITableViewHeaderFooterView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F11B31B90EEBB584A377317B648B2EB7 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A955F83999D87E035BE14D6CAE15FD12 /* MJRefreshHeader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -369,6 +369,7 @@
 		598025895F04A021010848D42890D796 /* UIGestureRecognizer+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+RACSignalSupport.h"; path = "ReactiveCocoa/UIGestureRecognizer+RACSignalSupport.h"; sourceTree = "<group>"; };
 		59892EE922DAFF45949B892AE9135D18 /* UIAlertView+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+RACSignalSupport.m"; path = "ReactiveCocoa/UIAlertView+RACSignalSupport.m"; sourceTree = "<group>"; };
 		59E44E2BA1F40398BA39DCDD91FC485B /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A8D626CEE16A0EFDD3A46AAB96A7364 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SDAutoLayout.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
 		5AD04514FEB04A33042ACB197B93B83A /* NSArray+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+RACSequenceAdditions.h"; path = "ReactiveCocoa/NSArray+RACSequenceAdditions.h"; sourceTree = "<group>"; };
 		5B905FA63002177B5702365204147FB6 /* MKAnnotationView+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MKAnnotationView+RACSignalSupport.m"; path = "ReactiveCocoa/MKAnnotationView+RACSignalSupport.m"; sourceTree = "<group>"; };
@@ -384,7 +385,6 @@
 		649C9ED08B19C6037848E54C25EF7B7B /* RACIndexSetSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACIndexSetSequence.h; path = ReactiveCocoa/RACIndexSetSequence.h; sourceTree = "<group>"; };
 		64D6B9A01FECAFDCD07C8C19D44C7693 /* RACDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACDelegateProxy.m; path = ReactiveCocoa/RACDelegateProxy.m; sourceTree = "<group>"; };
 		65AF5DAD263A86D3B6831B7C3BCE9678 /* RACTestScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACTestScheduler.m; path = ReactiveCocoa/RACTestScheduler.m; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		668C933BD4E567388972D9F8D1810CAA /* ReactiveCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoa-prefix.pch"; sourceTree = "<group>"; };
 		669547EE6F743A4607D79EDE0F8294C6 /* NSObject+RACDeallocating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RACDeallocating.h"; path = "ReactiveCocoa/NSObject+RACDeallocating.h"; sourceTree = "<group>"; };
 		6750597D7251D5C1FAB2104ACB147D42 /* NSObject+RACKVOWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RACKVOWrapper.h"; path = "ReactiveCocoa/NSObject+RACKVOWrapper.h"; sourceTree = "<group>"; };
@@ -557,7 +557,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC581A011CC508E68516017ED9FAB734 /* Foundation.framework in Frameworks */,
+				D719D3782558B9CCBA1450DB12653675 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,7 +565,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2D9F9EFFDFE9C19DA842E826B06BCEB /* Foundation.framework in Frameworks */,
+				EE4D53012490D288F17E1E34ED7EB203 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,7 +573,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				019AA6218BEB87BB76BBD31A297D7E66 /* Foundation.framework in Frameworks */,
+				83B68317FC4966C6E3235AEC02C40271 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,7 +581,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C60F8F982AB111E9286432EBC2EE8C /* Foundation.framework in Frameworks */,
+				958E4BD7461DB07EE14E7A0B59E7D7BB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -810,6 +810,14 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		77CDF2B3B7C976F127559E0FD4D4DBD0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -934,7 +942,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -951,14 +959,6 @@
 			);
 			name = SDAutoLayout;
 			path = SDAutoLayout;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		D89CC429F7C3D33A1CCB074D056CAB11 /* Support Files */ = {
@@ -1519,7 +1519,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-YTableEx/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YTableEx/Pods-YTableEx.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1552,7 +1556,11 @@
 				INFOPLIST_FILE = "Target Support Files/SDAutoLayout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SDAutoLayout/SDAutoLayout.modulemap";
 				PRODUCT_MODULE_NAME = SDAutoLayout;
 				PRODUCT_NAME = SDAutoLayout;
@@ -1583,7 +1591,11 @@
 				INFOPLIST_FILE = "Target Support Files/ReactiveCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ReactiveCocoa/ReactiveCocoa.modulemap";
 				PRODUCT_MODULE_NAME = ReactiveCocoa;
 				PRODUCT_NAME = ReactiveCocoa;
@@ -1613,7 +1625,11 @@
 				INFOPLIST_FILE = "Target Support Files/SDAutoLayout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SDAutoLayout/SDAutoLayout.modulemap";
 				PRODUCT_MODULE_NAME = SDAutoLayout;
 				PRODUCT_NAME = SDAutoLayout;
@@ -1643,7 +1659,11 @@
 				INFOPLIST_FILE = "Target Support Files/MJRefresh/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
 				PRODUCT_MODULE_NAME = MJRefresh;
 				PRODUCT_NAME = MJRefresh;
@@ -1674,7 +1694,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-YTableEx/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YTableEx/Pods-YTableEx.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1708,7 +1732,11 @@
 				INFOPLIST_FILE = "Target Support Files/MJRefresh/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
 				PRODUCT_MODULE_NAME = MJRefresh;
 				PRODUCT_NAME = MJRefresh;
@@ -1738,7 +1766,11 @@
 				INFOPLIST_FILE = "Target Support Files/ReactiveCocoa/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ReactiveCocoa/ReactiveCocoa.modulemap";
 				PRODUCT_MODULE_NAME = ReactiveCocoa;
 				PRODUCT_NAME = ReactiveCocoa;

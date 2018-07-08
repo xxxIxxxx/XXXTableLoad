@@ -23,7 +23,22 @@
 #pragma mark -
 
 
-- (void)xxx_tableLoadDataClick:(void(^)(void))pullDownClick andPullUP:(void(^)(void))pullUpClick {
+
+- (void)xxx_tableLoadDataClick:(void(^)(BOOL isPullDown))refreshClick {
+    [self xxx_tableSetPullDownAnimatioAndPdClick:^{
+        if (refreshClick) {
+            refreshClick(YES);
+        }
+    }];
+    [self xxx_tableSetPullUpAnimationWithPuClick:^{
+        if (refreshClick) {
+            refreshClick(NO);
+        }
+    }];
+    self.mj_footer.hidden = YES;
+}
+
+- (void)xxx_tableLoadDataClick:(void(^)(void))pullDownClick pullUP:(void(^)(void))pullUpClick {
     [self xxx_tableSetPullDownAnimatioAndPdClick:^{
         if (pullDownClick) {
             pullDownClick();
@@ -43,13 +58,13 @@
     if (page == XXXConfigManager.startPage && (singleCount == 0 || !singleCount)) {
         self.mj_footer.hidden = YES;
         if (tryAgain) {
-            [self xxx_viewEmptyImage:image andTip:tips andTryClick:^{
+            [self xxx_viewEmptyImage:image tip:tips tryClick:^{
                 if (tryAgain) {
                     tryAgain();
                 }
             }];
         }else{
-            [self xxx_viewEmptyImage:image andTip:tips andTryClick:nil];
+            [self xxx_viewEmptyImage:image tip:tips tryClick:nil];
         }
     } else {
         [self xxx_viewRemoveNoDataView];

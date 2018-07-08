@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'XXXTableLoad'
-  s.version      = '1.0.1'
+  s.version      = '1.0.2'
   s.summary      = '快速为tableView配置下拉上拉动画及空数据展示'
   s.homepage     = 'https://github.com/xxxIxxxx/XXXTableLoad'
   s.license      = 'MIT'

@@ -15,7 +15,7 @@ DEPENDENCIES:
   - SDAutoLayout (~> 2.2.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - MJRefresh
     - ReactiveCocoa
     - SDAutoLayout
@@ -25,6 +25,6 @@ SPEC CHECKSUMS:
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDAutoLayout: c5509e77ae75735d9a39f7bc83dba6d3f75d49d8
 
-PODFILE CHECKSUM: 88f0648be13f17649192dbfac9fb65994295ede8
+PODFILE CHECKSUM: 92e05cfeec86948949e0a773dd3c8ff91b609e09
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
