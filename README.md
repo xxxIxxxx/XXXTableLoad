@@ -1,3 +1,10 @@
+
+# 推荐使用新的 [XXXPlaceholder](https://github.com/xxxIxxxx/XXXPlaceholder)
+
+
+
+---
+
 # XXXTableLoad
 
 ![效果图](https://ws1.sinaimg.cn/large/006tNc79gy1freay40vu8g30ap0nn1kx.gif)
